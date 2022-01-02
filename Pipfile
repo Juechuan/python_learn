@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "tsinghua"
+
+[packages]
+fastapi = {extras = ["all"], version = "*"}
+celery = "*"
+redis = "*"
+
+[dev-packages]
+pylint = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.8"

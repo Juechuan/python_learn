@@ -7,6 +7,7 @@ name = "tsinghua"
 fastapi = {extras = ["all"], version = "*"}
 celery = "*"
 redis = "*"
+asyncpg = "*"
 
 [dev-packages]
 pylint = "*"

@@ -12,6 +12,7 @@ asyncpg = "*"
 [dev-packages]
 pylint = "*"
 yapf = "*"
+loguru = "*"
 
 [requires]
 python_version = "3.8"

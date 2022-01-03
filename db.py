@@ -3,6 +3,7 @@
 from asyncpg import create_pool
 
 import settings
+from loguru import logger
 
 
 class Database:
@@ -31,6 +32,7 @@ class Database:
             except Exception as e:
                 print(e)
 
+    @logger.catch
     async def fetch_rows(self, query: str):
         if not self._pool:
             await self.connect()

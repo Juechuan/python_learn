@@ -6,7 +6,6 @@ import settings
 
 
 class Database:
-
     def __init__(self) -> None:
         self.user = settings.POSTGRES_USER
         self.password = settings.POSTGRES_PASSWORD

@@ -8,11 +8,11 @@ fastapi = {extras = ["all"], version = "*"}
 celery = "*"
 redis = "*"
 asyncpg = "*"
+loguru = "*"
 
 [dev-packages]
 pylint = "*"
 yapf = "*"
-loguru = "*"
 
 [requires]
 python_version = "3.8"

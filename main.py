@@ -1,7 +1,7 @@
 """Main.py for fastapi."""
 from fastapi import FastAPI
 from loguru import logger
-from db_session import db_instance
+# from db_session import db_instance
 
 app = FastAPI()
 logger.add('runtime.log', format="{time} {level} {message}")

@@ -13,6 +13,7 @@ loguru = "*"
 [dev-packages]
 pylint = "*"
 yapf = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.10"
